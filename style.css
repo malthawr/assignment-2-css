@@ -1,0 +1,41 @@
+h1.title 
+{ 
+  text-align: center; 
+  font-size: 46px; 
+  border:1px solid red;
+
+}
+
+.first {
+  font-weight: bold;
+}
+.middle{
+  font-style: italic;
+}
+.end{
+  color: red;
+}
+.img{
+  background-repeat: inherit;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+   
+}
+
+table , tr , th {
+   border:2px dashed black;
+   border-radius: 25px;    
+}
+tr:nth-child(even) {background: gray}
+ tr:nth-child(odd) {background: burlywood}
+
+ footer{
+background-color: gray;
+}
+
+h1.footer{
+  text-align: center; 
+  font-size: 46px;
+  border-top:1px solid red;
+}
